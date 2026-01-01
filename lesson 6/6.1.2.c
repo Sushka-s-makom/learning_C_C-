@@ -12,9 +12,9 @@ int fact(int n)
         res *= i;
     }
 
-    return res;
-}
 
+    return res; 
+}
 int main(void)
 {
     printf("%d", fact(6));
